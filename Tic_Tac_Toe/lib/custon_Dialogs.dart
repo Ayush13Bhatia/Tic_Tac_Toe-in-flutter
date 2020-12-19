@@ -26,19 +26,3 @@ class CustomDialogs extends StatelessWidget {
   }
 }
 
-AlertStyle alertStyle = AlertStyle(
-  animationType: AnimationType.grow,
-  animationDuration: Duration(
-    milliseconds: 500,
-  ),
-  alertBorder: RoundedRectangleBorder(
-    borderRadius: BorderRadius.circular(20.0),
-    side: BorderSide(
-      color: Colors.grey,
-    ),
-  ),
-  titleStyle: TextStyle(
-    fontSize: 30.0,
-    fontWeight: FontWeight.bold,
-  ),
-);
