@@ -324,7 +324,7 @@ class _GamePageState extends State<GamePage> {
           Container(
             padding: EdgeInsets.all(20.0),
             child: Text(
-              "LearnCodeOnline.in",
+              "Project By: Ayush Bhatia",
               style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
             ),
           )
